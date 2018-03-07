@@ -1,0 +1,52 @@
+html {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    outline: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    outline: 0px;
+}
+
+div {
+    background-color: aquamarine;
+}
+
+.item {
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 0px;
+  }
+
+.grid-item {
+background-color: rgba(255, 255, 255, 0.8);
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 30px;
+text-align: center;
+}
+
+.project {
+    height: 400px;
+    width: 80%;
+    background:
+    linear-gradient(
+        to left,
+        rgba(103, 73, 163, 0.5),
+        rgba(103, 73, 163, 0.9)
+    ),
+    url("./images/chris-ried-534420-unsplash.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    -webkit-clip-path: polygon(0 0, 100% 0, 60% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 60% 100%, 0% 100%);
+}
